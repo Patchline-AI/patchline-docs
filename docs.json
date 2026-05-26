@@ -1,0 +1,273 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Patchline",
+  "description": "Patchline is the AI command center for the modern music business — your catalog, artists, streaming intelligence, releases, storefront, and royalties wired into AI tools you already use.",
+  "colors": {
+    "primary": "#0068FF",
+    "light": "#00E6E2",
+    "dark": "#002772"
+  },
+  "favicon": "/images/favicon.svg",
+  "logo": {
+    "light": "/images/logo/patchline-mark-dark.svg",
+    "dark": "/images/logo/patchline-mark-light.svg",
+    "href": "https://patchline.ai"
+  },
+  "background": {
+    "color": {
+      "dark": "#010102",
+      "light": "#FFFFFF"
+    }
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": false
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "patchline.ai",
+        "href": "https://patchline.ai"
+      },
+      {
+        "label": "Pricing",
+        "href": "https://patchline.ai/pricing"
+      },
+      {
+        "label": "Open dashboard",
+        "href": "https://patchline.ai/dashboard"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Sign up free",
+      "href": "https://patchline.ai/signup"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/patchline_ai",
+      "github": "https://github.com/Patchline-AI",
+      "linkedin": "https://www.linkedin.com/company/patchline-ai"
+    },
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          { "label": "Aria", "href": "https://patchline.ai" },
+          { "label": "MCP server", "href": "https://patchline.ai/mcp" },
+          { "label": "Claude plugin", "href": "https://patchline.ai/claude" },
+          { "label": "Pricing", "href": "https://patchline.ai/pricing" }
+        ]
+      },
+      {
+        "header": "For AI agents",
+        "items": [
+          { "label": "AGENTS.md", "href": "https://www.patchline.ai/AGENTS.md" },
+          { "label": "llms.txt (marketing)", "href": "https://www.patchline.ai/llms.txt" },
+          { "label": "llms.txt (docs)", "href": "https://docs.patchline.ai/llms.txt" },
+          { "label": "Live tools manifest", "href": "https://www.patchline.ai/api/agents/discovery" }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          { "label": "About", "href": "https://patchline.ai/about" },
+          { "label": "Careers", "href": "https://patchline.ai/careers" },
+          { "label": "Contact", "href": "https://patchline.ai/contact" }
+        ]
+      },
+      {
+        "header": "Legal",
+        "items": [
+          { "label": "Privacy", "href": "https://patchline.ai/privacy" },
+          { "label": "Terms", "href": "https://patchline.ai/terms" },
+          { "label": "Cookies", "href": "https://patchline.ai/cookies" },
+          { "label": "DMCA", "href": "https://patchline.ai/dmca" }
+        ]
+      }
+    ]
+  },
+  "search": {
+    "prompt": "Ask Patchline docs anything…"
+  },
+  "seo": {
+    "metatags": {
+      "og:site_name": "Patchline Documentation",
+      "og:image": "https://patchline.ai/og-image.png",
+      "twitter:site": "@patchline_ai"
+    },
+    "indexing": "all"
+  },
+  "redirects": [
+    { "source": "/", "destination": "/get-started/welcome" }
+  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get started",
+            "icon": "rocket",
+            "pages": [
+              "get-started/welcome",
+              "get-started/quickstart",
+              "get-started/pricing"
+            ]
+          },
+          {
+            "group": "Aria",
+            "icon": "sparkles",
+            "pages": [
+              "aria/overview",
+              "aria/telegram",
+              "aria/prompts",
+              "aria/research-mode"
+            ]
+          },
+          {
+            "group": "Catalog",
+            "icon": "music",
+            "pages": [
+              "catalog/import",
+              "catalog/upload",
+              "catalog/sonic-analysis",
+              "catalog/search"
+            ]
+          },
+          {
+            "group": "Releases & campaigns",
+            "icon": "calendar-days",
+            "pages": [
+              "releases/release-planner",
+              "releases/project-anchors",
+              "releases/campaign-planner",
+              "releases/pitch-kit",
+              "releases/playlist-matching"
+            ]
+          },
+          {
+            "group": "Artists & intelligence",
+            "icon": "users",
+            "pages": [
+              "artists/roster",
+              "artists/intelligence-profile",
+              "artists/audience",
+              "artists/scout"
+            ]
+          },
+          {
+            "group": "Royalty & insights",
+            "icon": "chart-line",
+            "pages": [
+              "intelligence/royalty",
+              "intelligence/streaming-insights"
+            ]
+          },
+          {
+            "group": "Storefront",
+            "icon": "store",
+            "pages": [
+              "storefront/overview",
+              "storefront/setup",
+              "storefront/smart-links",
+              "storefront/checkout-payouts"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "icon": "plug",
+            "pages": [
+              "integrations/overview",
+              "integrations/gmail",
+              "integrations/calendar"
+            ]
+          },
+          {
+            "group": "Account & billing",
+            "icon": "user-gear",
+            "pages": [
+              "account/plans-credits",
+              "account/billing",
+              "account/profile"
+            ]
+          },
+          {
+            "group": "Reference",
+            "icon": "book",
+            "pages": [
+              "reference/glossary",
+              "reference/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For AI agents & developers",
+        "groups": [
+          {
+            "group": "Model Context Protocol",
+            "icon": "code",
+            "pages": [
+              "for-agents/mcp-overview",
+              "for-agents/mcp-install",
+              "for-agents/mcp-tools-reference"
+            ]
+          },
+          {
+            "group": "Claude",
+            "icon": "message",
+            "pages": [
+              "for-agents/claude-plugin"
+            ]
+          },
+          {
+            "group": "Agent discovery",
+            "icon": "robot",
+            "pages": [
+              "for-agents/agents-md-explained"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Status",
+          "href": "https://status.patchline.ai",
+          "icon": "circle-check"
+        },
+        {
+          "anchor": "Changelog",
+          "href": "https://patchline.ai/changelog",
+          "icon": "list"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://patchline.ai/community",
+          "icon": "comments"
+        }
+      ]
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-PLACEHOLDER"
+    }
+  }
+}
